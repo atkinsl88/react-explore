@@ -2,10 +2,16 @@
 
 NPM Packages:
 
-- Bootstrap
+<ul>
+  <li>Bootstrap</li>
+</ul>
 
 React Libraries:
 
-- React Router Dom: Implement dynamic routing
-  -- BrowserRouter: Keep UI in sync with the URL
-  -- Link: Accessible navigation around application
+<ul>
+  <li>React Router Dom: Implement dynamic routing</li>
+  <ul>
+    <li>BrowserRouter: Keep UI in sync with the URL</li>
+    <li>Link: Accessible navigation around application</li>
+  </ul>
+</ul>
