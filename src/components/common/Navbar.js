@@ -5,19 +5,28 @@ const Navbar = () => {
 
   return (
 
-    <nav>
-      <div className="navbar-brand">
-        <Link to="/" className="navbar-item navbar-start"></Link>
-        <span aria-hidden="true">
-          <span></span>
-          <span></span>
-          <span></span>
-        </span>
-      </div>
-      <div>
-        <Link to="/homepage">Home</Link>
-        <Link to="/page-1">Page 1</Link>
-        <Link to="/page-2">Page 2</Link>
+    // Use Bootstrap navigation
+    // Use Link from react-router-dom and change a tags to Link
+    <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+      <Link className="navbar-brand" to="/homepage">Home</Link>
+      <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span className="navbar-toggler-icon"></span>
+      </button>
+      <div className="collapse navbar-collapse" id="navbarNav">
+        <ul className="navbar-nav">
+          <li className="nav-item active">
+            <Link className="nav-link" to="/homepage">Home<span className="sr-only">(current)</span></Link>
+          </li>
+          <li className="nav-item">
+            <Link className="nav-link" to="/homepage">Home</Link>
+          </li>
+          <li className="nav-item">
+           <Link className="nav-link" to="/homepage">Home</Link>
+          </li>
+          <li className="nav-item">
+            <Link className="nav-link" to="/homepage">Home</Link>
+          </li>
+        </ul>
       </div>
     </nav>
 
