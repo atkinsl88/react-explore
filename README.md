@@ -4,11 +4,10 @@ Learning Objectives:
 
 <ul>
   <li>Develop a React site users can navigate</li>
-  <li>Build x5 basic React components</li>
+  <li>Build x4 basic React components and pages</li>
     <ul>
       <li>Navigation <i>- Global</i></li>
       <li>Hero Section</li>
-      <li>Intro Text</li>
       <li>Image and Text</li>
       <li>Footer <i>- Global</i></li>
   </ul>
@@ -20,22 +19,20 @@ Learning Objectives:
   <li>Explore React libraries and npm packages</li>
 </ul>
 
-Overview of 'npm packages' and React libraries used.
-
-NPM Packages:
-
-<ul>
-  <li>Bootstrap</li>
-</ul>
+Overview of and React libraries installed via npm.
 
 React Libraries:
 
 <ul>
+  <li>React Icons</li>
   <li>React Router Dom: Implement dynamic routing</li>
   <ul>
     <li>BrowserRouter: Keep UI in sync with the URL</li>
     <li>Routes: All Routes and Links inside a Routes are relative</li>
-    <li>Render the UI when its path matches the current URL</li>
+    <li>Route: Render the UI when its path matches the current URL</li>
     <li>Link: Accessible navigation around application</li>
   </ul>
+  <li>React Helmet: Takes plain HTML tags and outputs plain HTML tags (META data).</li>
+  <li>Formik: Build forms quickly.</li>
+  <li>Bootstrap</li>
 </ul>
