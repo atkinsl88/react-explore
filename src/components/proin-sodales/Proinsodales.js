@@ -1,7 +1,7 @@
 import React from 'react'
 
-import Hero from '../home/modules/Hero'
-import Content from '../home/modules/Content'
+import Hero from '../proin-sodales/modules/Hero'
+import Content from '../proin-sodales/modules/Content'
 
 
 const Home = () => {

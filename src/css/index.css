@@ -1,0 +1,13 @@
+/* Text and Image */
+
+.text-image {
+  display: flex;
+}
+
+.text-col {
+  width: 50%;
+}
+
+.image-col {
+  width: 50%;
+}

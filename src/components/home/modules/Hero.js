@@ -1,20 +1,19 @@
 import React from 'react'
 
 const Hero = () => {
-
   return (
-
-    <section>
-      <div className="jumbotron">
-        <h1 className="display-4">Hello, world!</h1>
-        <p className="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
-        <p>It uses utility classNamees for typography and spacing to space content out within the larger container.</p>
-        <p className="lead">
-          <a className="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
-        </p>
+    <>
+      <div class="px-4 py-5 my-5 text-center">
+        <h1 class="display-5 fw-bold">Welcome</h1>
+        <div class="col-lg-6 mx-auto">
+          <p class="lead mb-4">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
+          <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+            <button type="button" class="btn btn-primary btn-lg px-4 gap-3">Primary button</button>
+            <button type="button" class="btn btn-outline-secondary btn-lg px-4">Secondary</button>
+          </div>
+        </div>
       </div>
-    </section>
-
+    </>
   )
 }
 

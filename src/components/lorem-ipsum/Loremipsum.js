@@ -1,7 +1,7 @@
 import React from 'react'
 
-import Hero from '../home/modules/Hero'
-import Content from '../home/modules/Content'
+import Hero from '../lorem-ipsum/modules/Hero'
+import Content from '../lorem-ipsum/modules/Content'
 
 
 const Home = () => {

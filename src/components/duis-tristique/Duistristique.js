@@ -1,7 +1,7 @@
 import React from 'react'
 
-import Hero from '../home/modules/Hero'
-import Content from '../home/modules/Content'
+import Hero from '../duis-tristique/modules/Hero'
+import Content from '../duis-tristique/modules/Content'
 
 
 const Home = () => {
