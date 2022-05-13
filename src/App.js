@@ -19,7 +19,7 @@ function App() {
     <BrowserRouter>
       <Navbar />
       <Routes>
-        <Route exact path="/home" element={<Home />} /> 
+        <Route exact path="/" element={<Home />} /> 
         <Route exact path="/lorem-ipsum" element={<Loremipsum />} />
         <Route exact path="/proin-sodales" element={<Proinsodales />} />
         <Route exact path="/duis-tristique" element={<Duistristique />} />
